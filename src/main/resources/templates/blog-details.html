@@ -16,8 +16,12 @@
             <h3 th:text="${el.title}"></h3>
             <p th:text="${el.full_text}"></p>
             <p><b>Перегдядів: </b><span  th:text="${el.views}"></span></p>
-            <a th:href="'/blog/' + ${el.id} + '/edit'" class="btn btn-warning">Редагувати</a>
-            <a th:href="'/blog/' + ${el.id} + '/remove'" class="btn btn-warning">Видалити</a>
+            <a th:href="'/blog/' + ${el.id} + '/edit'" class="btn btn-warning">Редагувати</a> <br><br>
+
+            <form th:action="'/blog/' + ${el.id} + '/remove'" method="post">
+                <button class="btn btn-warning" type="submit">Видалити</button>
+            </form>
+
 
         </div>
 
