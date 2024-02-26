@@ -50,14 +50,7 @@
         </dependency>
 
 
-        <!--thymeleaf +
-        web+
-        devtools+
-        test+
-        engine+
-        {jpa,mysql-connector-java} for my SQL
-        7:58 video#4
-        -->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -66,12 +59,7 @@
         </dependency>
 
 
-       <!-- <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
--->
+
 
         <dependency>
             <groupId>mysql</groupId>
